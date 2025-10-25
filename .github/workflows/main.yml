@@ -80,7 +80,7 @@ jobs:
           Write-Host "`n=== RDP ACCESS ==="
           Write-Host "Address: $env:TAILSCALE_IP"
           Write-Host "Username: RDP"
-          Write-Host "Password: Rdp@12345"
+          Write-Host "Password: Rdp@1234567801011"
           Write-Host "==================`n"
           
           while ($true) {
