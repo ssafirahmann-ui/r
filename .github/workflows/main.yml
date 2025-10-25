@@ -25,7 +25,7 @@ jobs:
 
       - name: Create RDP User with Strong Password
         run: |
-          $password = "Rdp@12345"
+          $password = "Rdp@1234567801011"
           $securePass = ConvertTo-SecureString $password -AsPlainText -Force
           
           if (Get-LocalUser -Name "RDP" -ErrorAction SilentlyContinue) {
